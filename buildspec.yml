@@ -16,7 +16,7 @@ phases:
 
 artifacts:
   files:
-  #  - '**/*'
-    - "my-app/build/output.zip"
-  #base-directory: 'my-app/build'
-  discard-paths: yes
+    - '**/*'
+   # - "my-app/build/output.zip"
+  base-directory: 'my-app/build'
+  #discard-paths: yes
